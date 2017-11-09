@@ -1,0 +1,17 @@
+.app {
+  font-size: 1.2em;
+}
+
+$main_color: #FA34E8;
+$line_color: #CCCDCC;
+
+h1 {
+  color: $main_color;
+  background-color: rgba($main_color, 0.1);
+}
+
+table {
+  * {
+    border: $line_color 1px solid;
+  }
+}
