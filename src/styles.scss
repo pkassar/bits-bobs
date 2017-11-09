@@ -1,17 +1,90 @@
-.app {
-  font-size: 1.2em;
-}
 
-$main_color: #FA34E8;
+$main_color: #A42D9C;
 $line_color: #CCCDCC;
 
-h1 {
-  color: $main_color;
-  background-color: rgba($main_color, 0.1);
+#app {
+
+
+  font-size: 1.2em;
+  & * {
+    font-family: 'Lato', sans-serif;
+    color:#333;
+  }
+  header{
+    background-color: #f9f9f9;
+    padding:30px 30px;
+    margin: 0 0 60px 0;
+    border-bottom: 3px solid #f2f2f2;
+
+    h1 {
+      color: #A42D9C;
+      font-weight: bold;
+      font-size: 50px;
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+
+    h2 {
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0;
+      color: #676767;
+    }
+  }
+
+  .client-data {
+    margin: 0 auto;
+    width: 90%;
+    thead th{
+      text-align: left;
+      border-bottom: 1px solid #ccc;
+      padding: 8px;
+    }
+
+
+
+    tbody{
+      tr:nth-child(even){
+        background-color:#eee;
+      }
+      td{
+        vertical-align: top;
+        padding: 20px 10px 10px 10px;
+        border-collapse: collapse;
+      }
+    }
+    .pie{
+      margin-left: auto;
+      svg{
+        height: 200px;
+        opacity: 0.8;
+      }
+    }
+    .traits {
+      display: flex;
+      .trait-details{
+        list-style-type: none;
+        padding: 0;
+      }
+      .trait-details li{
+        padding: 4px 2px;
+        .key{
+          background-color: blue;
+          border-radius: 3px;
+          width: 18px;
+          height: 18px;
+          display: inline-block;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+
+
+
 }
 
-table {
-  * {
-    border: $line_color 1px solid;
-  }
+
+p, span{
+  line-height: 1.5;
 }
