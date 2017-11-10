@@ -14,3 +14,13 @@ I wanted to link the dominant traits color to one I used in the pie chart in ord
 
 #### In progress:
 I started implementing the feature for infinite scroll by adding the React Infinite Scroller component to the page. I feel like I was really close to figuring out how to make it work but unfortunately couldn't manage to implement it on time. Scrolling to the bottom of the page would remove all the data instead of loading the next entries, I therefore commented out the nextPage function in order to still be able to see the page normally.
+
+
+#### Next features to implement:
+to reiterate:
++ I would have finished linking the legend color for the pie chart
++ Need to finish implementing the infinite Scroller
++ Would have added a pop up summary of the data on click of a button. It could have included a bar chart for the most common attributes, a distribution graph for the age and the top 10 most common professions.
+
+
+Thank you
