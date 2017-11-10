@@ -65,7 +65,7 @@ class App extends Component {
     super(props);
     this.state = {
       page: 0,
-      limit: 10,
+      limit: 30,
       hasMore: true,
       items: [],
     }
