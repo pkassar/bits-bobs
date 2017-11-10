@@ -30,6 +30,8 @@ const CustomerRow = ({customer}) => (
         </ul>
     <div className="pie">
       <PieChart
+
+
       slices={[
         {
           color: '#f00',
